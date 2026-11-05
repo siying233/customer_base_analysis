@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# data
+*.csv
+*.xlsx
+*.html
+
+# mac cache
+.DS_Store
