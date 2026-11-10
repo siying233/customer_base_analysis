@@ -1,22 +1,30 @@
 project:
   type: website
-  output-dir: gh-pages # 或使用 gh-pages 分支发布，这行可以省略
+  output-dir: _site
+  render:
+    - CLV_analysis.ipynb
 
 format:
   html:
     toc: true # 目录
     toc-depth: 3 # 目录层级
     toc-location: right # 目录位置
+
     theme: cosmo # 主题（文字/配色格式）
+
     code-fold: true # 代码折叠
     code-tools: true # 代码工具菜单
+
     code-links: # 外链（如 GitHub repo）
       - text: GitHub Repo
         href: https://github.com/siying233/customer_base_analysis
         icon: github
+
     repo-url: https://github.com/siying233/customer_base_analysis # 项目仓库链接
+
     include-after-body: move-code-tools.html
     css: styles.css
+
     grid:
       margin-width: 350px
   # pdf:

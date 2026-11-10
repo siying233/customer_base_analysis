@@ -224,5 +224,10 @@ __marimo__/
 
 # mac cache
 .DS_Store
-/.quarto/
-**/*.quarto_ipynb
+
+# Quarto build output
+_site/
+.quarto/
+
+# Jupyter
+.ipynb_checkpoi
